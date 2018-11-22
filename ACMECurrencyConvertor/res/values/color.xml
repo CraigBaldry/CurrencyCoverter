@@ -2,12 +2,16 @@
 <resources>
     
     <color name="NightBG">#0000CC</color>
+    <color name="NightBtnBG">#633AFF</color>
     <color name="NightTxt">#FFFFEE</color>
-    <color name="NatureBG">#33CC33</color>
-    <color name="NatureTxt">#FF66CC</color>
+    <color name="NatureBG">#2bc12b</color>
+    <color name="NatureBtnBG">#73ff66</color>
+    <color name="NatureTxt">#3e2723</color>
     <color name="FluroBG">#FF6600</color>
+    <color name="FluroBtnBG">#c43300</color>
     <color name="FluroTxt">#00FF99</color>
     <color name="ConstructionBG">#FFFF00</color>
+    <color name="ConstructionBtnBG">#ff1b0c</color>
     <color name="ConstructionTxt">#FF0000</color>
     <color name="White">#FFFFFF</color>
     <color name="Black">#000000</color>

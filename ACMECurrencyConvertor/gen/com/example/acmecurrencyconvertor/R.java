@@ -11,16 +11,20 @@ public final class R {
     public static final class attr {
     }
     public static final class color {
-        public static final int Black=0x7f040009;
-        public static final int ConstructionBG=0x7f040006;
-        public static final int ConstructionTxt=0x7f040007;
-        public static final int FluroBG=0x7f040004;
-        public static final int FluroTxt=0x7f040005;
-        public static final int NatureBG=0x7f040002;
-        public static final int NatureTxt=0x7f040003;
+        public static final int Black=0x7f04000d;
+        public static final int ConstructionBG=0x7f040009;
+        public static final int ConstructionBtnBG=0x7f04000a;
+        public static final int ConstructionTxt=0x7f04000b;
+        public static final int FluroBG=0x7f040006;
+        public static final int FluroBtnBG=0x7f040007;
+        public static final int FluroTxt=0x7f040008;
+        public static final int NatureBG=0x7f040003;
+        public static final int NatureBtnBG=0x7f040004;
+        public static final int NatureTxt=0x7f040005;
         public static final int NightBG=0x7f040000;
-        public static final int NightTxt=0x7f040001;
-        public static final int White=0x7f040008;
+        public static final int NightBtnBG=0x7f040001;
+        public static final int NightTxt=0x7f040002;
+        public static final int White=0x7f04000c;
     }
     public static final class dimen {
         /**  Default screen margins, per the Android Design guidelines. 
@@ -37,22 +41,32 @@ public final class R {
         public static final int text_size_sml=0x7f050002;
     }
     public static final class drawable {
-        public static final int ic_launcher=0x7f020000;
+        public static final int constuction_button=0x7f020000;
+        public static final int fluro_button=0x7f020001;
+        public static final int ic_launcher=0x7f020002;
+        public static final int nature_button=0x7f020003;
+        public static final int night_button=0x7f020004;
     }
     public static final class id {
+        public static final int arial=0x7f090014;
         public static final int backgroundLayout=0x7f090000;
         public static final int btnSave=0x7f090005;
         public static final int btnUpdate=0x7f090006;
+        public static final int calibiri=0x7f090016;
         public static final int color_menu=0x7f090009;
         public static final int construction=0x7f09000d;
         public static final int editText1=0x7f090001;
         public static final int editText2=0x7f090002;
         public static final int fluro=0x7f09000c;
+        public static final int font_menu=0x7f090013;
+        public static final int helpItem=0x7f090018;
         public static final int nature=0x7f09000b;
         public static final int night=0x7f09000a;
         public static final int numPicker1=0x7f090003;
         public static final int numPicker2=0x7f090004;
         public static final int standard=0x7f09000e;
+        public static final int standard_font=0x7f090017;
+        public static final int tahoma=0x7f090015;
         public static final int textView1=0x7f090007;
         public static final int textView2=0x7f090008;
         public static final int text_lrg=0x7f090012;
@@ -71,17 +85,29 @@ public final class R {
         public static final int app_name=0x7f060000;
         public static final int btn_save=0x7f060001;
         public static final int btn_update=0x7f060002;
-        public static final int colorscheme=0x7f060006;
+        /**  Color Schemes names 
+         */
+        public static final int colorscheme=0x7f060007;
         public static final int construction=0x7f06000b;
+        public static final int default_font=0x7f060015;
         public static final int fluro=0x7f06000a;
+        /**  Font Names 
+         */
+        public static final int font=0x7f060011;
+        public static final int font_arial=0x7f060012;
+        public static final int font_calibiri=0x7f060014;
+        public static final int font_tahoma=0x7f060013;
+        public static final int help=0x7f060006;
         public static final int nature=0x7f060008;
         public static final int night=0x7f060009;
         public static final int save_text=0x7f060003;
         public static final int standard=0x7f06000c;
-        public static final int textsize=0x7f060007;
-        public static final int txt_lrg=0x7f06000f;
-        public static final int txt_med=0x7f06000e;
-        public static final int txt_sml=0x7f06000d;
+        /**  Text names 
+         */
+        public static final int textsize=0x7f06000d;
+        public static final int txt_lrg=0x7f060010;
+        public static final int txt_med=0x7f06000f;
+        public static final int txt_sml=0x7f06000e;
         public static final int update_text=0x7f060004;
     }
     public static final class style {

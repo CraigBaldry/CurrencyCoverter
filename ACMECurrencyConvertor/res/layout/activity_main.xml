@@ -13,7 +13,7 @@
         android:baselineAligned="false" >
 
         <LinearLayout
-            android:layout_width="132dp"
+            android:layout_width="wrap_content"
             android:layout_height="fill_parent"
             android:layout_marginLeft="25dp"
             android:layout_marginStart="44dp"
@@ -21,7 +21,7 @@
 
             <EditText
                 android:id="@+id/editText1"
-                android:layout_width="125dp"
+                android:layout_width="168dp"
                 android:layout_height="wrap_content"
                 android:inputType="numberDecimal" >
 
@@ -30,14 +30,14 @@
 
             <EditText
                 android:id="@+id/editText2"
-                android:layout_width="125dp"
+                android:layout_width="167dp"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="65dp"
                 android:inputType="none|numberDecimal" />
         </LinearLayout>
 
         <LinearLayout
-            android:layout_width="fill_parent"
+            android:layout_width="wrap_content"
             android:layout_height="fill_parent"
             android:layout_marginLeft="0dp"
             android:layout_marginStart="0dp"
@@ -76,13 +76,19 @@
                 android:id="@+id/btnSave"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginStart="10dp"
                 android:text="@string/btn_save" />
 
             <Button
                 android:id="@+id/btnUpdate"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="20dp"
                 android:text="@string/btn_update" />
+
         </LinearLayout>
 
         <LinearLayout
@@ -96,14 +102,14 @@
                 android:id="@+id/textView1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="20dp"
+                android:layout_marginTop="10dp"
                 android:text="@string/save_text" />
 
             <TextView
                 android:id="@+id/textView2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="25dp"
+                android:layout_marginTop="35dp"
                 android:text="@string/update_text" />
         </LinearLayout>
     </LinearLayout>

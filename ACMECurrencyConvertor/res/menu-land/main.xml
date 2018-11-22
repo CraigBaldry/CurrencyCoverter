@@ -1,0 +1,68 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.acmecurrencyconvertor.MainActivity" >
+
+<item
+        android:id="@+id/color_menu"
+        android:showAsAction="ifRoom"
+        android:title="@string/colorscheme">
+        <menu>
+            <item
+                android:id="@+id/night"
+                android:title="@string/night"/>
+            <item
+                android:id="@+id/nature"
+                android:title="@string/nature"/>
+            <item
+                android:id="@+id/fluro"
+                android:title="@string/fluro"/>
+            <item
+                android:id="@+id/construction"
+                android:title="@string/construction"/>
+                        <item
+                android:id="@+id/standard"
+                android:title="@string/standard"/>
+        </menu>
+    </item>
+    <item
+        android:id="@+id/text_menu"
+        android:showAsAction="ifRoom"
+        android:title="@string/textsize">
+        <menu>
+            <item
+                android:id="@+id/text_sml"
+                android:title="@string/txt_sml"/>
+            <item
+                android:id="@+id/text_med"
+                android:title="@string/txt_med"/>
+            <item
+                android:id="@+id/text_lrg"
+                android:title="@string/txt_lrg"/>
+        </menu>
+    </item>
+    <item
+        android:id="@+id/font_menu"
+        android:showAsAction="ifRoom"
+        android:title="@string/font">
+        <menu>
+            <item
+                android:id="@+id/arial"
+                android:title="@string/font_arial"/>
+            <item
+                android:id="@+id/tahoma"
+                android:title="@string/font_tahoma"/>
+            <item
+                android:id="@+id/calibiri"
+                android:title="@string/font_calibiri"/>
+            <item
+                android:id="@+id/standard_font"
+                android:title="@string/default_font"/>
+            
+        </menu>
+    </item>
+    <item android:id="@+id/helpItem"
+        android:showAsAction="ifRoom"
+        android:title="@string/help">        
+    </item>
+
+</menu>
